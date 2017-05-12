@@ -1,0 +1,15 @@
+#apartamento{
+  h1{text-transform: uppercase;}
+  font-weight: 300;
+  ul{font-weight: 200;
+    li{list-style: none;}}
+  .main{padding-top:1rem;}
+  .vaixell{margin:2rem;}
+  h5{font-size:85%}
+  ul{padding-right:1rem; font-size:80%;
+
+          @include breakpoint(medium) {display: inline-flex;}}
+  article li{padding-right:1.5rem; color: scale-color($black, $lightness: 24%);}
+  article {margin-bottom: 2rem;}
+  img{border-radius:0.5rem; @include breakpoint(medium) {margin-top:3rem;} }
+  }

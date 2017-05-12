@@ -1,0 +1,13 @@
+#reserva{
+  h1{  font-weight: 400;}
+  font-weight: 300;
+  .main{padding-top:1rem;}
+  .subtextvaixell{font-size: 80%; font-weight: 300;}
+  #entrada,#salida{font-size:80%; font-weight: 300;}
+  h2{font-size:130%;}
+  #gform{
+    span{ color: $alert-color;font-weight: bold;}
+    .button{border-radius: 1rem; border-bottom:4px solid scale-color($primary-color, $lightness: -20%); &:hover{margin-top:3px;border-bottom:1px solid scale-color($primary-color, $lightness: -20%);;}}
+  }
+  .callout{h4{font-size:90%;}}
+}

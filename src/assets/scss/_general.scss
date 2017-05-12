@@ -1,0 +1,52 @@
+header{
+  height: 1rem;
+  position:relative;
+  z-index:1000;
+  @include breakpoint(medium) {
+  margin-bottom:4rem;}
+}
+body{letter-spacing:1px;}
+.language {font-size:70%;transition: all 1s ease-in-out;
+  ul li a{
+    @include breakpoint(small only){
+      border-radius:50%;
+      border:1px solid $primary-color;
+      margin:0 0.5rem; }
+      @include breakpoint(medium) {padding: 0 0 0 1.3rem;}
+       margin:0;
+       padding:0.5rem; }}
+.top-bar{
+  font-weight: 300;
+  font-size: 1.1rem;
+  transition: all 1s ease-in-out;
+  .actionbutton{transition: all 0.5s ease-in-out}
+  ul {background-color: transparent;}
+  .top-bar-right {
+    margin-top: 0.5rem;
+    transition: all 1s ease-in-out;
+    }
+  .top-bar-left{
+    transition: all 1s ease-in-out;
+    font-size:2rem;
+  }
+}
+.shrink {
+  background-color:rgba(255, 255, 255, 0.85);
+  padding:3px 0 0 0;
+  margin:0;
+  transition: all 1s ease-in-out;
+  .language{font-size:0;  transition: all 1s ease-in-out;}
+  .top-bar-right {
+    margin-top: 0;
+    transition: all 1s ease-in-out;
+    font-size:85%;
+    }
+  .top-bar-left{
+    font-size:1rem;
+    transition: all 1s ease-in-out;
+  }
+  .actionbutton{color:$white !important;
+  padding:0.4rem !important;
+    transition: all 0.5s ease-in-out;}
+}
+footer{margin-top:1rem;}

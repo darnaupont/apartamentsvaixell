@@ -1,0 +1,61 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="{{language}}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{browserTitle}}</title>
+    <meta name="description" content"{{description}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="shortcut icon" type="image/ico" href="{{root}}assets/images/icons/favicon.ico">
+    <meta name="{{metaName}}" content="{{metaContent}}">
+  </head>
+  <body>
+    <header>
+      <div class="top-bar-container" data-sticky-container>
+        <div class="sticky" data-sticky data-options="marginTop: 0;stickyOn: small;" style="width:100%">
+         <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+             <div class="top-bar-left"><a href="reserva.html"><span>Apartaments<strong>Vaixell</strong></span></a></div>
+             <div class="top-bar-right"> <button class="menu-icon" type="button" data-toggle="main-menu"></button></div>
+       </div>
+       <div class="top-bar" id="main-menu">
+         <div class="row">
+           <div class="language ">
+              <ul class="menu align-right">
+                <li><a href="">en</a></li>
+                <li><a href="">es</a></li>
+                <li><a href="">de</a></li>
+              </ul>
+           </div>
+       <div class="top-bar-left show-for-medium">
+         <ul class="menu home" >
+            <li><a href="reserva.html">Apartaments<strong>Vaixell</strong></a></li>
+         </ul>
+       </div>
+       <div class="top-bar-right text-center">
+           <ul class=" medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
+             <li><a href="apartamento.html">apartamento</a></li>
+             <li><a href="localizacion.html">localitzación</a></li>
+             <li><a type="button" class="button actionbutton" href="reserva.html">reserva</a></li>
+           </ul>
+       </div>
+       </div>
+       </div>
+       </div>
+     </div>
+</header>
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+    <footer class="row">
+             <div class="small-12 medium-6 columns text-center medium-text-left">
+                 <!-- <a href="legal.html" rel="noindex,nofollow">aviso legal</a> -->
+             </div>
+             <div class="small-12 medium-6 columns text-center medium-text-right">
+               <p><a href="http://www.Apartamentsvaixell.com">Apartaments<b>Vaixell</b></a>&copy; - 2017</p>
+             </div>
+    </footer>
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>
