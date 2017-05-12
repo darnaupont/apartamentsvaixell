@@ -3,7 +3,7 @@ header{
   position:relative;
   z-index:1000;
   @include breakpoint(medium) {
-  margin-bottom:4rem;}
+  margin-bottom:3rem;}
 }
 body{letter-spacing:1px;}
 .language {font-size:70%;transition: all 1s ease-in-out;
@@ -19,7 +19,7 @@ body{letter-spacing:1px;}
   font-weight: 300;
   font-size: 1.1rem;
   transition: all 1s ease-in-out;
-  .actionbutton{transition: all 0.5s ease-in-out}
+  .actionbutton{    background-color:$secondary-color; transition: all 0.5s ease-in-out}
   ul {background-color: transparent;}
   .top-bar-right {
     margin-top: 0.5rem;
@@ -46,7 +46,8 @@ body{letter-spacing:1px;}
     transition: all 1s ease-in-out;
   }
   .actionbutton{color:$white !important;
+
   padding:0.4rem !important;
     transition: all 0.5s ease-in-out;}
 }
-footer{margin-top:1rem;}
+footer{font-size:70%;margin-top:1rem;}

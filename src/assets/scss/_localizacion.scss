@@ -1,6 +1,9 @@
 #localizacion{
   .main{
-        position:relative;
+
+    display: table;
+    width: 100%;
+    min-height: 85vh;
         z-index: 1;
         height:100%;
         position: relative;
@@ -19,19 +22,25 @@
         height: 100%;
         z-index: 1;
         background: $white;
-        opacity:0.4; }
+        opacity:0.3; }
       }
-  .text{
-      position:relative; z-index:100;   color:scale-color($black, $lightness: -50%);
-  }
+  .content {
+    padding-top:1rem;
+    position:relative;
+    z-index:100;
+    display: table-cell;
+    vertical-align: middle;
+}
   .blockcolor{
     padding-top:1rem;
     background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
   }
-  h1{text-transform: uppercase;  color:scale-color($black, $lightness: -50%)}
   ul{font-weight: 200;
     li{list-style: none;}}
   .main{padding-top:1rem;}
   .vaixell{margin:2rem;}
+  h2{font-size:100%; font-weight: 500;}
+  h1{font-size:140%;}
   hr{border-bottom: 1px solid $black; padding:1rem; margin:2rem;}
   }

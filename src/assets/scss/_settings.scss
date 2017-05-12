@@ -42,7 +42,7 @@
 //  37. Top Bar
 
 @import 'util/util';
-@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500');
 // 1. Global
 // ---------
 
@@ -50,7 +50,7 @@ $global-font-size: 115%;
 $global-width: rem-calc(950);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #187795,
+  primary: #5299af,
   secondary: #2589BD,
   success: #3adb76,
   warning: #ffae00,
@@ -113,7 +113,7 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
+    'h1': ('font-size': 26),
     'h2': ('font-size': 20),
     'h3': ('font-size': 19),
     'h4': ('font-size': 18),
@@ -121,7 +121,7 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 2rem),
+    'h1': ('font-size': 2.25rem),
     'h2': ('font-size': 1.7rem),
     'h3': ('font-size': 1.5rem),
     'h4': ('font-size': 1.2rem),
