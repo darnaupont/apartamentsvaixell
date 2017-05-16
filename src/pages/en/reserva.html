@@ -1,142 +1,141 @@
 ---
-language: es
-browserTitle: Contacto - Reserva tu apartamento en ApartamentsVaixell
-description: Reserva de apartamentos Vaixell en Cala d'Or Mallorca
+language: en
+browserTitle: Contact - Book your apartment ApartamentsVaixell
+description: Book a Vaixell apartment in Cala d'Or Mallorca
+apartamento: apartment
+localizacion: location
+reserva: booking
 ---
 
 <div id="reserva">
   <section class="main">
   <div class="row">
     <div class="small-12 columns text-center">
-        <h1>Reserva tu <span>Apartamento<b>Vaixell</b><span></h1>
+        <h1>Book your <span><b>Vaixell</b>Apartment<span></h1>
     </div>
   <div class="small-12 columns">
-    <h2>Contacta con nosotros si tienes alguna duda o para reservar tu apartamento. Te lo ponemos fácil llamanos, envianos un email o simplemente rellena este formulario.</h2>
+    <h2>Contact us if you have any questions or book your apartment. We put it easy to call us, send us an e-mail or just fill out this form.</h2>
   </div>
 
     <div class="small-12 medium-6 columns text-center">
           <p><h3>email:</h3> <a href="mailto:jaumeponstaxi5@hotmail.es">jaumeponstaxi5@hotmail.es</a></p>
     </div>
     <div class="small-12 medium-6 columns text-center">
-      <p><h3>Teléfono:</h3> <a href="tel:+34609632522">+34 609 632 522</a></p>
+      <p><h3>phone:</h3> <a href="tel:+34609632522">+34 609 632 522</a></p>
     </div>
        <hr>
   <div class="small-12 medium-7 columns">
-    <h3>Formulario</h3>
+    <h3>Form</h3>
     <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwao61w0YZBgm8FAhwHfTxMdgpxYxeUyq0G_0z0ai62eKvMJJM/exec" class="row">
       <div class="small-12 medium-6 columns">
-        <label for="nombre">nombre <span>*</span></label>
-        <input type="text" required id="nombre" placeholder="Nombre" name="nombre">
+        <label for="nombre">name <span>*</span></label>
+        <input type="text" required id="nombre" placeholder="name" name="nombre">
       </div>
       <div class="small-12 medium-6 columns">
         <label for="email">email <span>*</span></label>
-        <input type="email" required id="email" placeholder="tu@email.com" name="email">
+        <input type="email" required id="email" placeholder="your@email.com" name="email">
       </div>
       <div class="small-12 columns">
         <div class="row">
           <div class="small-6 columns">
-            <label for="entrada">entrada <span>*</span></label>
+            <label for="entrada">check-in <span>*</span></label>
             <input id="entrada" type="date" value="2017-07-01" name="entrada">
           </div>
           <div class="small-6 columns">
-            <label for="salida">salida <span>*</span></label>
+            <label for="salida">chek-out <span>*</span></label>
             <input id="salida" type="date" value="2017-07-01" name="salida">
           </div>
         </div>
       </div>
       <div class="small-12 columns">
-        <label for="apartamento">elige tu apartamento<span>*</span></label>
+        <label for="apartamento">Choose your apartment<span>*</span></label>
           <select name="apartamento"  required id="apartamento">
-            <option value="bajos">Planta baja</option>
-            <option value="piso">Primer piso</option>
-            <option value="atico">Àtico</option>
+            <option value="bajos">Ground floor</option>
+            <option value="piso">First floor</option>
+            <option value="atico">Attic</option>
          </select>
       </div>
       <div class="small-12 columns">
-        <label for="comentarios"> ¿tienes alguna duda sobre tu viaje? Nosotros la resolvemos:</label>
+        <label for="comentarios">Do you have any questions about your trip? We answer it:</label>
         <textarea name="comentarios" id="comentarios" cols="30" rows="9"> </textarea>
       </div>
        <div class="columns text-center">
          <div class="g-recaptcha" data-sitekey="6LfD9yAUAAAAANa_O0s_vD58RxG737imHlNqRzlk"></div>
-          <input class="button radius" type="submit" value="enviar" />
+          <input class="button radius" type="submit" value="submit" />
        </div>
    </form>
 
 <div style="display:none; margin:4rem;" id="thankyou_message">
 <div class="row small-centered margintop">
-<h2><span>Perfecto</span></h2>
-  <h3>Pronto tendrá noticias nuestras.</h3>
+<h2><span>Perfect</span></h2>
+  <h3>Soon you will hear from us.</h3>
   </div>
   <div class="columns small-4 medium-2 small-centered ">
-  <h4><b>Gracias</b></h4>
+  <h4><b>Thank you</b></h4>
 </div>
   </div>
   </div>
   <div class="small-12 medium-5 columns">
-  <h3>Disponibilidad</h3>
-    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=bqm67kp5aoc4rhhr0kvl4rk9l4%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Europe%2FMadrid" style="border-width:0" width="100%" height="445" frameborder="0" scrolling="no"></iframe>
+  <h3>Availability</h3>
+    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bqm67kp5aoc4rhhr0kvl4rk9l4%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Europe%2FMadrid" style="border-width:0" width="100%" height="445" frameborder="0" scrolling="no"></iframe>
   </div>
   <div class="columns">
-    <h3>Precios</h3>
-    <p>Los precios son por semanas. Una semana es la estancia mínima para los apartamentos</p>
+    <h3>Prices</h3>
+    <p>The prices are for weeks. One week is the minimum stay for the apartments.</p>
     <div class="row columns callout">
     <div class="small-4 medium-2 columns">
-      <h4>enero</h4>
+      <h4>January</h4>
       <p>395€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>febrero</h4>
+      <h4>February</h4>
       <p>395€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>marzo</h4>
+      <h4>March</h4>
       <p>395€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>abril</h4>
+      <h4>April</h4>
       <p>495€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>mayo</h4>
+      <h4>May</h4>
       <p>590€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>junio</h4>
+      <h4>June</h4>
       <p>700€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>julio</h4>
+      <h4>July</h4>
       <p>925€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>agosto</h4>
+      <h4>August</h4>
       <p>925€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>setiembre</h4>
-      <p>700</p>
+      <h4>September</h4>
+      <p>700€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>octubre</h4>
+      <h4>October</h4>
       <p>495€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>noviembre</h4>
+      <h4>November</h4>
       <p>395€</p>
     </div>
     <div class="small-4 medium-2 columns">
-      <h4>diciembre</h4>
+      <h4>December</h4>
       <p>395€</p>
     </div>
   </div>
   </div>
   <div class="small-12 columns condiciones">
-    <h3>Condiciones de reserva</h3>
-    <p> Para garantizar la reserva, será necesario un <b>depósito del 20%</b>. El importe total del
-    alquiler del apartamento, se deberá pagar como mínimo 8 días antes de la llegada.
-    Además, se deberá hacer efectivo el pago de un depósito reembolsable de 200€, para
-    las llaves y posibles desperfectos. Dicha cantidad será devuelta dentro de una semana
-    después de su salida, si el apartamento está en buenas condiciones.</p>
+    <h3>Booking conditions </h3>
+     <P> To guarantee the reservation, a <b> 20% deposit will be required </b>. The total amount of the Rent of the apartment, must be paid at least 8 days prior to the arrival. In addition, a refundable deposit of € 200 must be paid in order to pay The keys and possible damages. This amount will be returned within one week after your departure, if the apartment is in good condition.</p>
   </div>
   </div>
 </section>

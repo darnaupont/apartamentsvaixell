@@ -24,9 +24,9 @@
          <div class="row">
            <div class="language">
               <ul class="menu align-right show-for-medium">
-                <li><a href="en/index.html">en</a></li>
-                <li><a href="index.html">es</a></li>
-                <li><a href="de/index.html">de</a></li>
+                <li><a href="../en/index.html">en</a></li>
+                <li><a href="../index.html">es</a></li>
+                <li><a href="../de/index.html">de</a></li>
               </ul>
            </div>
        <div class="top-bar-left show-for-medium">
@@ -36,9 +36,9 @@
        </div>
        <div class="top-bar-right text-center">
            <ul class=" medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
-             <li><a href="apartamento.html">apartamento</a></li>
-             <li><a href="localizacion.html">localitzación</a></li>
-             <li><a type="button" class="button actionbutton" href="reserva.html">reserva</a></li>
+             <li><a href="apartamento.html">{{apartamento}}</a></li>
+             <li><a href="localizacion.html">{{localizacion}}</a></li>
+             <li><a type="button" class="button actionbutton" href="reserva.html">{{reserva}}</a></li>
            </ul>
        </div>
        </div>
@@ -46,6 +46,13 @@
        </div>
      </div>
 </header>
+<div class="row menu-centered show-for-small-only">
+  <ul class="menu">
+                <li><a href="../en/index.html">en</a></li>
+                <li><a href="../index.html">es</a></li>
+                <li><a href="../de/index.html">de</a></li>
+              </ul>
+</div>
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
     <footer class="row">
